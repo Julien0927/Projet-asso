@@ -1,0 +1,57 @@
+/* Global*/
+body {
+ background-image: url("./images/Fondcover.jpg");
+ min-height: 100vh;
+ min-height: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+/*Stylisation du header*/
+.header{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.logo{
+  margin: 5px;
+  width: 75px;
+  height: 80px;
+  margin-right: 500px;
+}
+
+.List-Links {
+  display: flex;
+  list-style: none;
+  column-gap: 40px;
+  
+}
+.nav-link {
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*Stylisation Cover*/
+.cover {
+
+}
+.title {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
