@@ -1,13 +1,17 @@
 /* Global*/
+.flux {
+  margin-left: 75px;
+  margin-right: 75px;
+}
 body {
- background-image: url("./images/Fondcover.jpg");
+ background-image: url("./images/mur-blanc.jpg");
  min-height: 100vh;
  min-height: 100vw;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 * {
@@ -15,43 +19,73 @@ a {
   padding: 0;
   font-family: 'Cabin', sans-serif;
 }
+img {
+  width: 300px;
+  height: 150px;
+}
+h1 {
+  color: rgb(231, 20, 20);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 72px;
+}
 
 /*Stylisation du header*/
 .header{
-  background-color: white;
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
-}
-
-.logo{
-  margin: 5px;
-  width: 75px;
-  height: 80px;
-  margin-right: 500px;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .List-Links {
   display: flex;
+  justify-content: flex-end;
   list-style: none;
   column-gap: 40px;
-  
 }
+
+.logo{
+  width: 75px;
+  height: 80px;  
+}
+
 .nav-link {
   text-transform: uppercase;
   align-items: center;
   font-size: 24px;
   font-weight: 700;
+  color: black;
+}
+.nav-link:hover {
+  color: red;
+  
 }
 
 /*Stylisation Cover*/
 .cover {
-
+  display: flex;
+  flex-direction: column;
 }
-.title {
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
+.title-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.News {
+  display: flex;
+}
+
+.MatchDay {
+  
+}
+
+.Results {
+  
+}
+
+.Solidarity{
+  
 }
