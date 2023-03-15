@@ -38,7 +38,8 @@ h2 {
   font-weight: bold;
 }
 h2:hover {
-  text-decoration: underline;
+  color: rgb(231, 20, 20);
+  transition: color 0.2s;
 }
 p {
   text-align: justify;
@@ -64,8 +65,8 @@ img, a, svg:hover {
 }
 
 .logo{
-  width: 75px;
-  height: 80px;  
+  width: 95px;
+  height: 100px;  
 }
 
 .nav-link {
@@ -78,14 +79,14 @@ img, a, svg:hover {
 .nav-link:hover {
   color: red;
   text-decoration: underline;
-    
 }
 
 /*Stylisation Cover*/
+
 .title-1 {
   display: flex;
   justify-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .cover{
   display: flex;
@@ -97,16 +98,18 @@ img, a, svg:hover {
 .News {
   display: flex;
   justify-content: space-around;
-  column-gap: 65px;
+  column-gap: 55px;
   padding-bottom: 30px;
 }
-
 .News-2 {
   display: flex;
   justify-content: space-around;
-  column-gap: 65px;
+  column-gap: 45px;
 }
-
+.News-2 img {
+  object-fit: cover;
+  object-position: top;
+}
  /*Stylisation du footer*/
 
  .footer {
