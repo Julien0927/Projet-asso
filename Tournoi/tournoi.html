@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="tournoi.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-	<title>Tournoi National U11-U13</title>
-</head>
-<body>
-	<nav aria-label="breadcrumb">
-		<ul class="breadcrumb">
-		  <li class="breadcrumb-item"><a href="#">Accueil</a></li>
-		  <li class="breadcrumb-item"><a href="#">Actus</a></li>
-		  <li class="breadcrumb-item active" aria-current="page">Tournoi national jeunes</li>
-		</ul>
-	  </nav>
-	<main class="main">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="tournoi.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<title>Tournoi National U11-U13</title>
+	</head>
+	<body>
+	<!--Start header-->
+	<header>
+		<nav aria-label="breadcrumb">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Accueil</a></li>
+				<li class="breadcrumb-item"><a href="#">Actus</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Tournoi national jeunes</li>
+			</ul>
+		</nav>
+	</header>
+	<!--End header-->
+	<!--Start main-->
+	<main class="container">
 		<h1>Tournoi National U11 U13</h1>
 		<section class="cover">
 			<div class="row">
@@ -38,40 +43,42 @@
 							Au bord de l'océan Atlantique, proche de l'île de Ré et de ses plages.
 						</p>
 						<form class="row row-cols-lg-auto g-3 align-items-center">
-							<div class="col-12">
-					  		<label class="visually-hidden" for="inlineFormInputGroupUsername">Email</label>
-					  		<div class="input-group">
+							<div class="col-12 col-md-6">
+					  			<label class="visually-hidden" for="inlineFormInputGroupUsername">Email</label>
+					  			<div class="input-group">
 								<div class="input-group-text">@</div>
 								<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Votre email">
-					  		</div>
+					  			</div>
 							</div>
-							<div class="col-12">
-					  		<label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-					  		<select class="form-select" id="inlineFormSelectPref">
+							<div class="col-12 col-md-6">
+					  			<label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+					  			<select class="form-select" id="inlineFormSelectPref">
 								<option selected>Catégorie...</option>
 								<option value="1">U11</option>
 								<option value="2">U13</option>
-					  		</select>
+					  			</select>
 							</div>
-							<div class="col-12">
-					  		<button type="submit" class="btn btn-danger">Envoyer</button>
+							<div class="col-12 col-md-6">
+					  			<button type="submit" class="btn btn-danger">Envoyer</button>
 							</div>
 						</form>
 					</div>
 				</article>
 				<article class="col-12 col-md-6 col-lg-4">
 					<div class="logo">
-						<img src="../images/Logo ES La Rochelle (1).png" alt="Logo du club">
+						<img src="../images/Logo_ESR.png" class="img-fluid mx-auto" alt="Logo du club">
 					</div>
 				</article>
 				<article class="col-12 col-md-6 col-lg-4">	
-					<div class="Affiche ">
+					<div class="Affiche">
 						<img src="../images/Tournoi_jeunes.webp" alt="affiche tournoi jeunes">
 					</div>
 				</article>
 			</div>
 		</section>
 	</main>
+	<!--End Main-->
+	<!--Start footer-->
 	<footer class="footer">
 		<p>contact.esrlarochelle@gmail.com</p>
     <p>© 2022 par ES LA ROCHELLE</p>
@@ -86,7 +93,7 @@
       </svg>
     </div>
 	</footer>
-	
+	<!--End footer-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
