@@ -1,0 +1,97 @@
+//*stylisation globale*/
+html {
+  height: 100%;
+  width: 100%;
+}
+  body {
+   background-image: url("../images/mur-blanc.jpg");
+  }
+    
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+  }
+     
+  svg:hover {
+    cursor: pointer;
+  }
+  
+  /*Stylisation du header*/
+
+  header {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  /*stylisation du main*/
+  
+  .cover {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+       
+  }
+
+  .container h1 {
+    color: rgb(248, 240, 240);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    background-color: rgba(231, 20, 20, 0.9);
+  }
+  
+  .Text {
+    width: 500px;
+    height: 658px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 40px;
+	  word-spacing: -.1ch;
+    max-width: 100%;  
+  }
+
+  .Text p {
+    text-align: justify;
+    padding-bottom: 10px;
+  }
+
+  .Photo1 {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    max-width: 100%;
+  }
+
+  .Affiche img{
+    border-radius: 10px;
+  }
+  
+  /*Stylisation du footer*/
+
+  .footer {
+    height: 120px;
+    background-image: url("../images/pelouse.jpg");
+    color: white;
+    font-weight: bold;
+    text-align: center;
+   }
+   
+   .footer p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   }
